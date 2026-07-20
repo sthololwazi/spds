@@ -1,0 +1,28 @@
+{
+  "name": "@spds/domain",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "dist/index.js",
+      "types": "dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json --outDir dist",
+    "test": "vitest run",
+    "lint": "pnpm exec eslint "src/**/*.ts"",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "vitest": "^0.41.0"
+  }
+}

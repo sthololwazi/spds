@@ -1,0 +1,16 @@
+{
+  "pipeline": {
+    "build": {
+      "outputs": ["dist/**"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "test": {
+      "outputs": []
+    },
+    "typecheck": {
+      "outputs": []
+    }
+  }
+}

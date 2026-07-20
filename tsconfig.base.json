@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2023"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@spds/domain": ["packages/domain/src"],
+      "@spds/domain/*": ["packages/domain/src/*"]
+      ,"@spds/core": ["packages/core/src"],
+      "@spds/core/*": ["packages/core/src/*"],
+      "@spds/standards": ["packages/standards/src"],
+      "@spds/standards/*": ["packages/standards/src/*"]
+    }
+  },
+  "include": ["packages/**/*.ts", "apps/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
