@@ -1,29 +1,29 @@
 {
-  "name": "@spds/domain",
-  "version": "0.1.0",
+  "name": "spds",
   "private": true,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "type": "module",
-  "exports": {
-    ".": {
-      "import": "dist/index.js",
-      "types": "dist/index.d.ts"
-    }
-  },
+  "version": "0.1.0",
+  "packageManager": "pnpm@latest",
   "scripts": {
-    "build": "tsc -p tsconfig.json --outDir dist",
-    "test": "vitest run",
-    "lint": "pnpm exec eslint \"src/**/*.ts\"",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
-  },
-  "dependencies": {
-    "zod": "^4.4.0"
+    "dev": "turbo dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "install": "pnpm install"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
-    "vitest": "^1.6.0"
+    "@typescript-eslint/eslint-plugin": "^7.14.0",
+    "@typescript-eslint/parser": "^7.14.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.9.0",
+    "turbo": "^1.13.0",
+    "vitest": "^1.6.0",
+    "zod": "^4.4.0",
+    "typescript": "^5.9.0"
   }
 }
 
