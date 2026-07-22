@@ -72,7 +72,9 @@ export class Room extends Entity<Identifier> {
       number,
       area: Area.fromJSON(area as number),
       level,
-      boundaries: (boundaries as Array<Record<string, number>>).map((coord) => Coordinate.fromJSON(coord)),
+      boundaries: (boundaries as Array<{ x: number; y: number }>).map((coord) =>
+        Coordinate.fromJSON(coord),
+      ),
       finish: finish as string,
       createdAt,
       updatedAt,
