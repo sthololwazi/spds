@@ -263,12 +263,12 @@ If an AI system encounters a rule it cannot follow:
 ### 3.3 AI Code Generation Standards
 
 #### 3.3.1 Quality Baseline
-- All AI-generated code must pass 100% of these gates:
-  - TypeScript strict mode compilation
-  - ESLint with SPDS rules
-  - Unit tests with >80% coverage
-  - Type checking with no `any` types
-  - JSDoc for all public APIs
+All AI-generated code must pass 100% of these gates:
+- TypeScript strict mode compilation
+- ESLint with SPDS rules
+- Unit tests with >80% coverage
+- Type checking with no `any` types
+- JSDoc for all public APIs
 
 #### 3.3.2 Transparency Requirements
 Every AI-generated file must include a header:
