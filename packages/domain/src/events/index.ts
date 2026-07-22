@@ -1,3 +1,5 @@
+import { BaseDomainEvent } from './DomainEvent.js';
+
 export { DomainEvent, BaseDomainEvent } from './DomainEvent.js';
 
 export class ProjectCreatedEvent extends BaseDomainEvent<{ projectId: string }> {
