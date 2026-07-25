@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2023",
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "lib": ["ES2023"],
     "declaration": true,
@@ -23,9 +23,10 @@
       ,"@spds/core": ["packages/core/src"],
       "@spds/core/*": ["packages/core/src/*"],
       "@spds/standards": ["packages/standards/src"],
-      "@spds/standards/*": ["packages/standards/src/*"]
+      "@spds/standards/*": ["packages/standards/src/*"],
+      "@spds/intelligence": ["packages/intelligence/src"],
+      "@spds/intelligence/*": ["packages/intelligence/src/*"]
     }
   },
   "include": ["packages/**/*.ts", "apps/**/*.ts", "tests/**/*.ts"],
   "exclude": ["node_modules", "dist"]
-}

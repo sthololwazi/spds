@@ -1,12 +1,34 @@
-import { z } from 'zod';
+import { BaseDomainEvent } from './DomainEvent.js';
 
-export const ProjectSchema = z.object({
-  id: z.string().uuid().optional(),
-  name: z.string().min(1),
-  client: z.string().min(1),
-  site: z.string().min(1),
-  revision: z.string().min(1),
-  metadata: z.record(z.union([z.string(), z.number(), z.boolean()])).optional()
-});
+export { DomainEvent, BaseDomainEvent } from './DomainEvent.js';
 
-export type ProjectInput = z.input<typeof ProjectSchema>;
+export class ProjectCreatedEvent extends BaseDomainEvent<{ projectId: string }> {
+  constructor(projectId: string) {
+    super('ProjectCreated', { projectId });
+  }
+}
+
+export class RoomCreatedEvent extends BaseDomainEvent<{ roomId: string; projectId: string }> {
+  constructor(roomId: string, projectId: string) {
+    super('RoomCreated', { roomId, projectId });
+  }
+}
+
+export class WallAddedEvent extends BaseDomainEvent<{ wallId: string; buildingId: string }> {
+  constructor(wallId: string, buildingId: string) {
+    super('WallAdded', { wallId, buildingId });
+  }
+}
+
+export class DoorInsertedEvent extends BaseDomainEvent<{ doorId: string; wallId: string }> {
+  constructor(doorId: string, wallId: string) {
+    super('DoorInserted', { doorId, wallId });
+  }
+}
+
+export class WindowMovedEvent extends BaseDomainEvent<{ windowId: string; wallId: string }> {
+  constructor(windowId: string, wallId: string) {
+    super('WindowMoved', { windowId, wallId });
+  }
+}
+

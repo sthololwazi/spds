@@ -1,0 +1,432 @@
+{
+  "company": {
+    "name": "Sthololwazi Projects",
+    "description": "An all-round small construction company that delivers projects from concept to 'Keys' handover with a single contractor throughout the entire lifecycle of your construction."
+  },
+  "serviceCategories": [
+    {
+      "id": 1,
+      "name": "Planning & Pre-Construction",
+      "description": "Initial planning and pre-construction phase services",
+      "services": [
+        "Client consultations",
+        "Project feasibility studies",
+        "Site inspections",
+        "Budget estimating",
+        "Cost planning",
+        "Bills of Quantities (BOQs)",
+        "Material take-offs",
+        "Project scheduling",
+        "Procurement planning",
+        "Construction methodology",
+        "Risk assessments",
+        "Site logistics planning"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Architectural Services",
+      "description": "Architectural design and planning services",
+      "services": [
+        "Concept designs",
+        "House plans",
+        "Building plans",
+        "Floor plans",
+        "Building elevations",
+        "Sections and details",
+        "Renovation drawings",
+        "Extension plans",
+        "Garage plans",
+        "Boundary wall designs",
+        "As-built drawings"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Engineering Services",
+      "description": "Structural and civil engineering services",
+      "services": [
+        "Structural Design",
+        "Foundation design",
+        "Retaining wall design",
+        "Reinforcement detailing",
+        "Stormwater design",
+        "Roads and pavements",
+        "Drainage design",
+        "Sewer layouts",
+        "Water reticulation"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Land & Surveying",
+      "description": "Land survey and measurement services",
+      "services": [
+        "Site surveys",
+        "Boundary identification",
+        "Setting out",
+        "Topographical surveys",
+        "Pegging of buildings"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Earthworks",
+      "description": "Site preparation and earthwork services",
+      "services": [
+        "Site clearing",
+        "Bush clearing",
+        "Demolition",
+        "Excavation",
+        "Bulk earthworks",
+        "Trenching",
+        "Backfilling",
+        "Compaction",
+        "Platform preparation",
+        "Soil stabilization"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Foundations",
+      "description": "Foundation construction services",
+      "services": [
+        "Strip foundations",
+        "Pad foundations",
+        "Raft foundations",
+        "Foundation excavation",
+        "Foundation concrete",
+        "Foundation reinforcement",
+        "Damp proofing"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Concrete Works",
+      "description": "Concrete construction and finishing",
+      "services": [
+        "Concrete slabs",
+        "Suspended slabs",
+        "Concrete columns",
+        "Beams",
+        "Staircases",
+        "Concrete walls",
+        "Concrete driveways",
+        "Concrete paving",
+        "Concrete repairs"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Brickwork & Masonry",
+      "description": "Brick and masonry work services",
+      "services": [
+        "Brick walls",
+        "Block walls",
+        "Stone masonry",
+        "Face brickwork",
+        "Boundary walls",
+        "Retaining walls",
+        "Fireplaces",
+        "Chimneys"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Welding and Fabrication",
+      "description": "Metal welding and fabrication services",
+      "services": [
+        "Garage doors",
+        "Security gates",
+        "Burglar bars",
+        "Steel staircases",
+        "Steel walkways",
+        "Steel fabrication",
+        "Steel erection"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Roofing",
+      "description": "Roofing and roof-related services",
+      "services": [
+        "Roof trusses",
+        "Roof sheeting",
+        "Tile roofing",
+        "Chromadek roofing",
+        "IBR roofing",
+        "Corrugated roofing",
+        "Waterproofing",
+        "Gutters",
+        "Downpipes",
+        "Fascia boards",
+        "Barge boards",
+        "Ceiling insulation"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Carpentry & Joinery",
+      "description": "Carpentry and custom joinery work",
+      "services": [
+        "Roof carpentry",
+        "Kitchen cupboards",
+        "Bedroom cupboards",
+        "Bathroom vanities",
+        "Doors",
+        "Door frames",
+        "Skirting",
+        "Decking",
+        "Timber flooring",
+        "Built-in furniture"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Doors & Windows",
+      "description": "Door and window installation services",
+      "services": [
+        "Aluminium windows",
+        "Steel windows",
+        "Timber windows",
+        "Sliding doors",
+        "Folding doors"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Ceilings & Drywall",
+      "description": "Ceiling and drywall installation",
+      "services": [
+        "Suspended ceilings",
+        "Rhinoboard ceilings",
+        "Partition walls",
+        "Drywall systems",
+        "Decorative ceilings"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Plumbing",
+      "description": "Plumbing and water systems installation",
+      "services": [
+        "Water reticulation",
+        "Sewer installation",
+        "Drain laying",
+        "Bathrooms",
+        "Kitchens",
+        "Geysers",
+        "Rainwater harvesting",
+        "Grey water systems",
+        "Leak repairs"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Electrical",
+      "description": "Electrical installation and wiring services",
+      "services": [
+        "Electrical installation",
+        "Rewiring",
+        "Distribution boards",
+        "Lighting",
+        "Power outlets",
+        "Earthing",
+        "Lightning protection"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Boundary & Perimeter",
+      "description": "Boundary and perimeter enclosure services",
+      "services": [
+        "Boundary walls",
+        "Palisade fencing",
+        "Wire fencing",
+        "Concrete fencing",
+        "Sliding gates",
+        "Swing gates"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Renovations & Maintenance",
+      "description": "Renovation and maintenance services",
+      "services": [
+        "Home renovations",
+        "Office renovations",
+        "Commercial fit-outs",
+        "Industrial maintenance",
+        "Building repairs",
+        "Structural repairs",
+        "Crack repairs",
+        "Insurance repairs",
+        "Emergency lighting"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Plastering & Screeding",
+      "description": "Plastering and floor/wall screeding",
+      "services": [
+        "Internal plaster",
+        "External plaster",
+        "Decorative plaster",
+        "Floor screeds",
+        "Wall screeds"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Tiling",
+      "description": "Tile installation and cladding services",
+      "services": [
+        "Floor tiling",
+        "Wall tiling",
+        "Porcelain tiles",
+        "Ceramic tiles",
+        "Mosaic tiles",
+        "Stone cladding"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Flooring",
+      "description": "Flooring installation services",
+      "services": [
+        "Timber flooring",
+        "Industrial flooring"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Painting & Finishes",
+      "description": "Painting and finishing services",
+      "services": [
+        "Interior painting",
+        "Exterior painting",
+        "Waterproof coatings",
+        "Texture coatings",
+        "Roof painting",
+        "Steel painting",
+        "Wood varnishing"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Waterproofing",
+      "description": "Waterproofing and damp-proofing services",
+      "services": [
+        "Roof waterproofing",
+        "Basement waterproofing",
+        "Balcony waterproofing",
+        "Shower waterproofing",
+        "Damp proofing"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "External Works",
+      "description": "External landscaping and paving services",
+      "services": [
+        "Paving",
+        "Kerbing",
+        "Asphalt",
+        "Concrete roads",
+        "Driveways",
+        "Sidewalks",
+        "Parking areas",
+        "Landscaping",
+        "Irrigation",
+        "Lawns",
+        "Garden design",
+        "Outdoor lighting"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Commercial & Industrial Construction",
+      "description": "Commercial and industrial building services",
+      "services": [
+        "Offices",
+        "Retail shops",
+        "Warehouses",
+        "Workshops",
+        "Factories",
+        "Schools",
+        "Churches",
+        "Clinics",
+        "Guest houses",
+        "Apartment buildings"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Project Management",
+      "description": "Project management and oversight services",
+      "services": [
+        "Site supervision",
+        "Contract administration",
+        "Progress reporting",
+        "Cost control",
+        "Quality assurance",
+        "Quality control",
+        "Procurement",
+        "Programme management"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Health, Safety & Compliance",
+      "description": "Health, safety and compliance services",
+      "services": [
+        "Risk assessments",
+        "Site inductions",
+        "Safety inspections"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Procurement & Supply",
+      "description": "Procurement and supply chain management",
+      "services": [
+        "Material sourcing",
+        "Equipment hire",
+        "Plant hire",
+        "Supplier management",
+        "Logistics",
+        "Inventory management"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Testing & Commissioning",
+      "description": "Testing and system commissioning services",
+      "services": [
+        "Electrical testing",
+        "Plumbing pressure testing",
+        "Water testing"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Handover Services",
+      "description": "Final handover and completion services",
+      "services": [
+        "Snag list preparation",
+        "Defect rectification",
+        "Final cleaning",
+        "As-built drawings",
+        "Occupancy certificates",
+        "Practical completion",
+        "Final handover"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Professionalism",
+      "description": "Professional standards and practices",
+      "services": []
+    }
+  ]
+}
