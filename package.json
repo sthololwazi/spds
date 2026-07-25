@@ -2,7 +2,7 @@
   "name": "spds",
   "private": true,
   "version": "0.1.0",
-  "packageManager": "pnpm@latest",
+  "packageManager": "pnpm@4.0.0-alpha",
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo run build",
