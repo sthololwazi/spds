@@ -490,7 +490,7 @@ By committing code to the SPDS repository, you affirm:
 - [ ] I understand the amendment process and governance hierarchy
 - [ ] I will raise issues rather than silently violate rules
 
-**This is the Law of SPDS.**
+**This is the Law of SPDS. NOW**
 
 ---
 
