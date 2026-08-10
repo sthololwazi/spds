@@ -68,20 +68,35 @@ export class Project extends Entity<Identifier> {
     };
   }
 
-  static fromJSON(json: Record<string, unknown>): Project {
-    const { id, name, client, site, building, revision, metadata, createdAt, updatedAt, version } = json as Record<string, any>;
-
-    return new Project({
-      id: Identifier.fromJSON(id as string),
-      name,
-      client,
-      site,
-      building: building ? Building.fromJSON(building as Record<string, unknown>) : undefined,
-      revision,
-      metadata: (metadata as ProjectMetadata) ?? {},
-      createdAt,
-      updatedAt,
-      version
-    });
+static fromJSON(json: Record<string, unknown>): Project {
+  if (typeof json !== 'object' || json === null) {
+    throw new Error('Invalid JSON input');
   }
+  
+  const typed = json as {
+    id: string;
+    name: string;
+    client: string;
+    site: string;
+    revision: string;
+    building?: Record<string, unknown>;
+    metadata?: ProjectMetadata;
+    createdAt?: string;
+    updatedAt?: string;
+    version?: number;
+  };
+
+  return new Project({
+    id: Identifier.fromJSON(typed.id),
+    name: typed.name,
+    client: typed.client,
+    site: typed.site,
+    building: typed.building ? Building.fromJSON(typed.building) : undefined,
+    revision: typed.revision,
+    metadata: typed.metadata ?? {},
+    createdAt: typed.createdAt,
+    updatedAt: typed.updatedAt,
+    version: typed.version
+  });
+}
 }

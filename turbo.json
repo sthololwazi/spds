@@ -1,7 +1,7 @@
 {
   "pipeline": {
     "build": {
-      "outputs": ["dist/**"]
+      "outputs": ["docs/**"]
     },
     "lint": {
       "outputs": []
