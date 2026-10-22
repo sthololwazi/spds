@@ -22,6 +22,7 @@ Generate schedules automatically where possible.
 Maintain complete cross-sheet coordination.
 Be easy to revise without introducing inconsistencies.
 Scale from a small residence to a commercial development.
+
 SPDS Architecture
 SPDS
 │
@@ -55,9 +56,7 @@ SPDS
 Each volume is independently maintainable but integrates with the others.
 
 Volume 1 — Company Standards Manual
-
 This becomes the authoritative reference for every project and defines:
-
 Drawing numbering
 Sheet naming
 Fonts
@@ -75,33 +74,21 @@ Issue status (Concept, Tender, IFC, As-Built)
 This is your equivalent of a BIM or CAD standards manual.
 
 Volume 2 — Template Library
-
 Every sheet derives from a master template rather than being created from scratch.
 
 Examples include:
-
 Residential House
-
 Commercial Office
-
 Warehouse
-
 Factory
-
 Apartment Block
-
 Retaining Wall
-
 Boundary Wall
-
 Steel Structure
-
 Civil Works
-
 Infrastructure
 
 Each template includes:
-
 predefined layers
 title block
 revision table
@@ -111,10 +98,9 @@ scale bar
 north arrow
 hyperlinks
 print settings
+
 Volume 3 — SVG Drawing Engine
-
 This is the reusable graphics library.
-
 Symbols
 Doors
 Windows
@@ -149,9 +135,7 @@ Level markers
 Every sheet references these shared assets.
 
 Volume 4 — Construction Standards
-
 This captures Sthololwazi Projects' default construction specifications.
-
 Examples include:
 
 Wall systems
@@ -167,11 +151,8 @@ Plumbing standards
 Project-specific requirements can override these defaults while keeping the documentation structure intact.
 
 Volume 5 — Schedule Engine
-
 Schedules are generated from tagged objects rather than typed manually.
-
 Examples:
-
 Door Schedule
 Window Schedule
 Hardware Schedule
@@ -184,9 +165,7 @@ Plumbing Fixture Schedule
 Changing a door tag updates the associated schedule automatically.
 
 Volume 6 — Detail Library
-
 A reusable collection of construction details such as:
-
 Strip footing
 Slab edge
 Wall base
@@ -205,9 +184,7 @@ Stair details
 Each detail has a unique identifier and revision history.
 
 Volume 7 — Quality Assurance
-
 Before issuing a package, automated checks verify:
-
 drawing numbers
 revision consistency
 sheet hyperlinks
@@ -223,9 +200,7 @@ sheet register completeness
 This reduces coordination errors before issue.
 
 Volume 8 — Project Generator
-
 The generator accepts project inputs such as:
-
 Site survey
 Architectural concept
 Floor layouts
@@ -237,9 +212,7 @@ Client branding (if applicable)
 It then applies the SPDS standards to create a coordinated documentation set.
 
 Volume 9 — Publishing
-
 Outputs include:
-
 HTML sheets with embedded SVG
 Print-ready PDF sheets
 Combined drawing set PDF
